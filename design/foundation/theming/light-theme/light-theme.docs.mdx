@@ -1,0 +1,26 @@
+---
+description: 'A customized light theme module for MUI'
+labels: ['theme module', 'MUI Light Theme']
+---
+
+Usage:
+
+To be used via a `ThemeProvider`
+
+This function returns a compiled light theme object that can be used with the `Material UI` Theme Provider.
+
+```
+import { ThemeProvider } from '@showoff/design.theme.theme-provider';
+import { Button } from '@mui/material';
+import { lightTheme } from './light-theme';
+
+
+<ThemeProvider
+    theme={lightTheme()}
+>
+    <Button variant="contained"
+    >
+        Hello, Light Theme.
+    </Button>
+</ThemeProvider>
+```

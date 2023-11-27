@@ -1,0 +1,26 @@
+---
+description: 'A customized dark theme for MUI'
+labels: ['theme', 'mui dark theme custom']
+---
+
+Usage:
+
+To be used via a `ThemeProvider`
+
+This function returns a compiled dark theme object that can be used with the `Material UI` Theme Provider.
+
+```
+import { ThemeProvider } from '@showoff/design.theme.theme-provider';
+import { Button } from '@mui/material';
+import { darkTheme } from './dark-theme';
+
+
+<ThemeProvider
+    theme={darkTheme()}
+>
+    <Button variant="contained"
+    >
+        Hello, Dark Theme.
+    </Button>
+</ThemeProvider>
+```

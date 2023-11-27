@@ -1,0 +1,51 @@
+---
+description: A button that provides a toggable interface between two states
+labels: ["toggle", "varying-actions"]
+---
+
+import { Typography } from "@showoff/design.typography.typography";
+import { ToggleButton } from "./toggle-button";
+
+A component that accepts a group of buttons and toggles between them.
+
+### Component usage
+
+Use with a `ThemeProvider` to enforce styling.
+
+```js
+<ToggleButton
+  options={[
+    {
+      label: <Typography variant="body2">Option 1</Typography>,
+      value: "option1",
+    },
+    {
+      label: <Typography variant="body2">Option 2</Typography>,
+      value: "option2",
+    },
+  ]}
+  onClick={() => {
+    console.log("clicked");
+  }}
+/>
+```
+
+### Render sample toggle button.
+
+```js live
+<ToggleButton
+  options={[
+    {
+      label: <Typography variant="body2">Option 1</Typography>,
+      value: "option1",
+    },
+    {
+      label: <Typography variant="body2">Option 2</Typography>,
+      value: "option2",
+    },
+  ]}
+  onClick={() => {
+    console.log("clicked");
+  }}
+/>
+```

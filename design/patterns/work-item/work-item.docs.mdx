@@ -1,0 +1,33 @@
+---
+description: A component that renders a users work experience
+labels: ["work experience preview"]
+---
+
+import { WorkItem } from "./work-item";
+
+A component that renders a work experience item.
+Use with a `ThemeProvider` to enforce MUI Themeing.
+
+### Component usage
+
+```js
+<WorkItem
+  company="Company"
+  designation="Designation"
+  period="Period"
+  size={7}
+/>
+```
+
+### Render sample work item with theme.
+
+- Change the `size` prop to understand how the experience changes.
+
+```js live
+<WorkItem
+  company="Company"
+  designation="Designation"
+  period="Period"
+  size={7}
+/>
+```

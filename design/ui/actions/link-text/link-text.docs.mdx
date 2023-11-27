@@ -1,0 +1,40 @@
+---
+description: A Link + Icon + URL component
+labels: ["link url", "hyperlink"]
+---
+
+import { MemoryRouter } from "react-router-dom";
+import { LinkText } from "./link-text";
+
+A component that creates a URL Hyperlink with an arrow forward icon.
+
+### Component usage
+
+Use with `ThemeProvider` to enforce styling.
+Use with React Router to enable routing.
+
+```js
+<MemoryRouter>
+  <LinkText
+    url="https://www.enlear.com"
+    fontSize={22}
+    iconSize="medium"
+    fontWeight={400}
+    linkText="Hello, Link Text"
+  />
+</MemoryRouter>
+```
+
+### Render hello world!
+
+```js live
+<MemoryRouter>
+  <LinkText
+    url="https://www.enlear.com"
+    fontSize={22}
+    iconSize="medium"
+    fontWeight={400}
+    linkText="Hello, Link Text"
+  />
+</MemoryRouter>
+```

@@ -1,0 +1,26 @@
+---
+description: A button that toggles between dark/light theme
+labels: ['theme toggle']
+---
+
+import { lightTheme } from '@bits-and-pieces/design.foundation.theming.light-theme';
+import { ThemeProvider } from '@bits-and-pieces/design.foundation.theming.theme-provider';
+import { ThemeToggle } from './theme-toggle';
+
+A component that renders a toggle that allows to switch between dark and light mode.
+
+### Component usage
+
+```js
+<ThemeProvider theme={lightTheme()}>
+  <ToggleButton isDark={false} onClick={() => alert('Toggle')} />
+</ThemeProvider>
+```
+
+### Render sample toggle button
+
+```js live
+<ThemeProvider theme={lightTheme()}>
+  <ToggleButton isDark={false} onClick={() => alert('Toggle')} />
+</ThemeProvider>
+```

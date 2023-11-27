@@ -1,0 +1,41 @@
+---
+description: A set of clickable breadcrumbs to track URL History or to render set of Descriptions.
+labels: ["crumbs", "url history", "information"]
+---
+
+import { Breadcrumb } from "./breadcrumb";
+
+A component that renders a breadcrumb to display the stream of routes.
+Use with `ThemeProvider` to enforce styling.
+
+### Component usage
+
+It is encouraged to wrap this with a `ThemeProvider` to enforce the custom theming.
+
+```js
+<Breadcrumb
+  typographyProps={{
+    fontSize: 30,
+  }}
+  crumbs={[
+    { crumb: "Home", link: "/" },
+    { crumb: "Components" },
+    { crumb: "Breadcrumb", link: "/component/breadcrumb" },
+  ]}
+/>
+```
+
+### Render a sample breadcrumb
+
+```js live
+<Breadcrumb
+  typographyProps={{
+    fontSize: 30,
+  }}
+  crumbs={[
+    { crumb: "Home", link: "/" },
+    { crumb: "Components" },
+    { crumb: "Breadcrumb", link: "/component/breadcrumb" },
+  ]}
+/>
+```

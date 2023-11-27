@@ -1,0 +1,26 @@
+---
+description: A box containings sizeable widths based on passed size.
+labels: ["interactive box"]
+---
+
+import { SizeableBox } from "./sizeable-box";
+import { Typography } from "@showoff/design.typography.typography";
+
+A component that renders a sizeable bordered box.
+Use with a `ThemeProvider` to enforce MUI Themeing.
+
+### Component usage
+
+Use with `ThemeProvider` for styling.
+
+```js
+<SizeableBox size={7}>This is a sizeable box</SizeableBox>
+```
+
+### Render sample.
+
+```js live
+<SizeableBox size={7}>
+  <Typography>This is a sizeable box</Typography>
+</SizeableBox>
+```
