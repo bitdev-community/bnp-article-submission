@@ -30,6 +30,13 @@
         "mainFile": "index.ts",
         "rootDir": "dev/envs/aws-lambda-env"
     },
+    "envs/react-bnp-env": {
+        "name": "envs/react-bnp-env",
+        "scope": "bits-and-pieces.dev",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "dev/envs/react-bnp-env"
+    },
     "forms/article-submission-form": {
         "name": "forms/article-submission-form",
         "scope": "bits-and-pieces.article-submission",
@@ -162,13 +169,6 @@
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/patterns/work-item"
-    },
-    "preview-contexts/mui-preview-context": {
-        "name": "preview-contexts/mui-preview-context",
-        "scope": "bits-and-pieces.dev",
-        "version": "0.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "dev/preview-contexts/mui-preview-context"
     },
     "ui/actions/link": {
         "name": "ui/actions/link",
