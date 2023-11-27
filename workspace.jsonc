@@ -38,6 +38,13 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
+  /**
+   * these are app components.
+   * run `bit app list` to see the list of available apps.
+   */
   "bits-and-pieces.article-submission/article-submission-app": {},
+  /**
+   * `bit run article-submission-app` to run this app locally.
+   */
   "bits-and-pieces.article-submission/handlers/form-submission-handler": {}
 }
