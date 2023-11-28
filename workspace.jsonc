@@ -51,9 +51,9 @@
    * these are app components.
    * run `bit app list` to see the list of available apps.
    */
-  "bits-and-pieces.article-submission/article-submission-app": {},
+  "bits-and-pieces.article-submission/handlers/form-submission-handler": {},
   /**
    * `bit run article-submission-app` to run this app locally.
    */
-  "bits-and-pieces.article-submission/handlers/form-submission-handler": {}
+  "bits-and-pieces.article-submission/article-submission-app": {}
 }
