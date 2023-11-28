@@ -8,12 +8,21 @@
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
+  /**
+   * these are the envs that provide component templates (`bit create....`)
+   * run `bit templates` to see the list of available templates.
+   */
   "teambit.generator/generator": {
     "envs": [
       "bits-and-pieces.dev/envs/react-bnp-env",
       "bits-and-pieces.dev/envs/aws-lambda-env"
     ]
   },
+  /**
+   * not all dependency policies are configured on the workspace level.
+   * some are configured via the component dev environments and some are directly configured on the components.
+   * run `bit show COMPONENT_NAME` to inspect a component's dependencies.
+   */
   "teambit.dependencies/dependency-resolver": {
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
